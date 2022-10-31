@@ -1,0 +1,5 @@
+.container {
+  max-width: calc(736px + 2rem);
+  padding: 0 1rem;
+  margin: 0 auto;
+}

@@ -1,0 +1,53 @@
+.createTask {
+  margin-top: -1.6975rem;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.createTask input {
+  width: 100%;
+  padding: 0 1rem;
+  background: var(--background-300);
+  height: 3.375rem;
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  outline: 0;
+}
+
+.createTask input:focus {
+  border: 1px solid var(--purple-dark);
+}
+
+.createTask input:placeholder {
+  color: var(--placeholder);
+}
+
+.createTask button {
+  background: var(--blue-dark);
+  border-radius: 8px;
+  padding: 0 1rem;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  height: 3.375rem;
+  font-size: 0.875rem;
+  font-weight: bold;
+  cursor: pointer;
+  border: 0;
+  transition: background-color 0.1s;
+  color: var(--gray-100);
+}
+
+.createTask button:disabled {
+  filter: brightness(0.7);
+  cursor: not-allowed;
+}
+
+.createTask button:not(:disabled):hover {
+  background: var(--blue);
+}
+
+.createTask button svg {
+  font-size: 1rem;
+}

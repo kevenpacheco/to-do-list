@@ -1,0 +1,18 @@
+.toggleModeColorsButton {
+  background: transparent;
+  border-radius: 50%;
+  width: 4rem;
+  height: 4rem;
+  display: grid;
+  place-items: center;
+  border: 0;
+  cursor: pointer;
+  transition: background-color 0.1s;
+  position: fixed;
+  bottom: 1rem;
+  right: 1rem;
+}
+
+.toggleModeColorsButton:hover {
+  background: var(--hover);
+}

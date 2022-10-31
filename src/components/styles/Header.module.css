@@ -1,0 +1,6 @@
+.header {
+  background: var(--background-700);
+  height: 12.5rem;
+  display: grid;
+  place-items: center;
+}
